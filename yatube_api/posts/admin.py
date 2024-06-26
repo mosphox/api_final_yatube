@@ -4,7 +4,7 @@ from .models import Post, Group, Comment, Follow
 
 
 class PostAdmin(admin.ModelAdmin):
-    list_display = ['text', 'pub_date', 'author', 'group',]
+    list_display = ['text', 'pub_date', 'author', 'group']
 
 
 class GroupAdmin(admin.ModelAdmin):
